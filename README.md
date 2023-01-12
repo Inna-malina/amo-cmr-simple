@@ -1,1 +1,1 @@
-# amo-cmr-simple
+## Junior Front-end Developer - Тестовое задание - Сайты
