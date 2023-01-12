@@ -1,5 +1,7 @@
 ## Junior Front-end Developer - Тестовое задание - Сайты
 
+ссылка на приложение https://inna-malina.github.io/amo-crm-simple/
+
 * Создать небольшую **адаптивную** страницу (*Только компьютеры, без мобильных устройств*) с несколькими блоками по макету из Figma — [https://www.figma.com/file/SIRkcqtaKQoohnojXBXu7u/Plant-shop-(Copy)?node-id=0%3A1](https://www.figma.com/file/SIRkcqtaKQoohnojXBXu7u/Plant-shop-(Copy)?node-id=0%3A1)
 * По нажатию на кнопку “Форма” должно открыться модальное окно с формой обратной связи
 * Сделать простую валидацию формы (имя должно быть не менее 3-х символов, телефон должен начинаться с +7 или 8, за которыми следуют еще 10 цифр)
