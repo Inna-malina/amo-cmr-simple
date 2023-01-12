@@ -46,7 +46,7 @@ function toGetData() {
   //~ запускаем прелоадер
   preloader.classList.remove('preloader-none');
   let request = new XMLHttpRequest();
-  request.open('GET', 'https://jsonplaceholder.typicode.com/todos1');
+  request.open('GET', 'https://jsonplaceholder.typicode.com/todos');
 
   let formData = new FormData(form);
   request.send(formData);
