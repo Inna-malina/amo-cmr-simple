@@ -1,0 +1,70 @@
+$title-color: #156963;
+$text-color: #2c1500;
+$bg-color: #156963;
+
+.specific {
+  padding: 138px 0px 0px 0px;
+}
+.specific-list__box {
+}
+.specific-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 33px;
+
+  .specific-item {
+    width: 25%;
+    border: 1px solid #cccccc;
+    padding: 21px 15px;
+
+    .specific-item__title {
+      color: $title-color;
+      transform: translateX(62px);
+      font-size: 1rem;
+      line-height: 24px;
+      font-weight: 700;
+    }
+
+    .specific-item__text {
+      padding: 18px 0px 0px 0px;
+      color: #2c1500;
+      font-size: 0.7rem;
+    }
+
+    &:nth-child(1) {
+      background: url('../images/delivery.svg');
+      background-repeat: no-repeat;
+      background-position-x: 15px;
+      background-position-y: 21px;
+    }
+
+    &:nth-child(2) {
+      background: url('../images/headphones.svg');
+      background-repeat: no-repeat;
+      background-position-x: 15px;
+      background-position-y: 21px;
+    }
+
+    &:nth-child(3) {
+      background: url('../images/plant.svg');
+      background-repeat: no-repeat;
+      background-position-x: 15px;
+      background-position-y: 21px;
+    }
+
+    &:nth-child(4) {
+      background: url('../images/dollar-symbol.svg');
+      background-repeat: no-repeat;
+      background-position-x: 15px;
+      background-position-y: 21px;
+    }
+  }
+}
+
+@media(max-width: 1280px) {
+  .specific-list{
+    gap: 15px;
+  }
+}

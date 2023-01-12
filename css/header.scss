@@ -1,0 +1,39 @@
+$title-color: #156963;
+$bg-color: #156963;
+
+header {
+  position: fixed;
+  width: 100%;
+  // background: rgb(172, 172, 172);
+
+  .header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px 20px 0px;
+
+    .header-logo__box {
+      .header-logo {
+      }
+    }
+
+    .header-button__box {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 111px;
+      height: 36px;
+      background: $bg-color;
+
+      .header-button {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 0.8rem;
+        line-height: 20px;
+      }
+    }
+  }
+}

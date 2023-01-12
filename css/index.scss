@@ -1,0 +1,41 @@
+@import './header.scss';
+@import './promo.scss';
+@import './specific.scss';
+@import './plants.scss';
+@import './modal.scss';
+@import './object.scss';
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+  max-width: 1165px;
+  margin: 0px auto;
+}
+@media (max-width: 1280px) {
+  html {
+    font-size: 14px;
+  }
+  .center {
+    max-width: 900px;
+    margin: 0px auto;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+// font-family: 'Montserrat', sans-serif;
+$title-color: #156963;
+$text-color: #2c1500;
+$bg-color: #156963;
